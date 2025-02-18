@@ -3,34 +3,36 @@ import LenderCard from "../components/LenderCard";
 export default function FinancingOptions() {
   const lenders = [
     {
-      name: "Green Bank",
-      rate: 3.25,
+      name: "Digital Credit Union",
+      rate: 6.375,
       term: 30,
-      website: "https://www.greenbank.com",
+      website:
+        "https://www.dcu.org/borrow/mortgage-loans/home-mortgage-loans.html#mortgage-rates-table-item-a033872e2d-tab",
     },
     {
-      name: "Eco Credit Union",
-      rate: 3.1,
-      term: 30,
-      website: "https://www.ecocreditunion.com",
-    },
-    {
-      name: "Sustainable Lender",
-      rate: 3.4,
-      term: 15,
-      website: "https://www.sustainablelender.com",
-    },
-    {
-      name: "Community Bank",
-      rate: 3.35,
-      term: 30,
-      website: "https://www.communitybank.com",
-    },
-    {
-      name: "Green Mortgage Co.",
-      rate: 3.2,
+      name: "Digital Credit Union",
+      rate: 6.0,
       term: 20,
-      website: "https://www.greenmortgage.com",
+      website:
+        "https://www.dcu.org/borrow/mortgage-loans/home-mortgage-loans.html#mortgage-rates-table-item-a033872e2d-tab",
+    },
+    {
+      name: "Chase Bank",
+      rate: 6.625,
+      term: 30,
+      website: "https://www.chase.com/personal/mortgage/mortgage-rates",
+    },
+    {
+      name: "Chase Bank",
+      rate: 5.875,
+      term: 15,
+      website: "https://www.chase.com/personal/mortgage/mortgage-rates",
+    },
+    {
+      name: "Wells Fargo Bank",
+      rate: 6.875,
+      term: 30,
+      website: "https://www.wellsfargo.com/mortgage/rates/",
     },
   ];
 
